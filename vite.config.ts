@@ -47,6 +47,7 @@ export default defineConfig({
     },
   },
   build: {
+    target: ['chrome63'],
     outDir: 'dist',
   },
 });
